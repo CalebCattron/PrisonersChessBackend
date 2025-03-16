@@ -1,0 +1,15 @@
+C:\Users\Caleb\source\repos\PrisonersChessBackend\bin\Debug\net7.0\PrisonersChess.exe
+C:\Users\Caleb\source\repos\PrisonersChessBackend\bin\Debug\net7.0\PrisonersChess.deps.json
+C:\Users\Caleb\source\repos\PrisonersChessBackend\bin\Debug\net7.0\PrisonersChess.runtimeconfig.json
+C:\Users\Caleb\source\repos\PrisonersChessBackend\bin\Debug\net7.0\PrisonersChess.dll
+C:\Users\Caleb\source\repos\PrisonersChessBackend\bin\Debug\net7.0\PrisonersChess.pdb
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\PrisonersChess.csproj.AssemblyReference.cache
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\PrisonersChess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\PrisonersChess.AssemblyInfoInputs.cache
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\PrisonersChess.AssemblyInfo.cs
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\PrisonersChess.csproj.CoreCompileInputs.cache
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\PrisonersChess.dll
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\refint\PrisonersChess.dll
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\PrisonersChess.pdb
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\PrisonersChess.genruntimeconfig.cache
+C:\Users\Caleb\source\repos\PrisonersChessBackend\obj\Debug\net7.0\ref\PrisonersChess.dll
