@@ -27,7 +27,7 @@ do
                 board[i, j] = false;
             }
         }
-           inMenu = false;
+        inMenu = false;
     }
     else if (customOrRandomize == "randomize")
     {
@@ -46,69 +46,69 @@ do
 //Reads current board
 for (int i = 0; i < 8; i++)
 {
-for (int j = 1; j < 9; j = j + 2)
-{
-counter += (board[i, j] == true) ? 1 : 0;
-}
-}
-current = (counter % 2 == 1) ? "1" + current : "0" + current;
-counter = 0;
-
-for (int i = 0; i < 8; i++)
-{
-counter += (board[i, 2] == true) ? 1 : 0;
-counter += (board[i, 3] == true) ? 1 : 0;
-counter += (board[i, 6] == true) ? 1 : 0;
-counter += (board[i, 7] == true) ? 1 : 0;
+    for (int j = 1; j < 9; j = j + 2)
+    {
+        counter += (board[i, j] == true) ? 1 : 0;
+    }
 }
 current = (counter % 2 == 1) ? "1" + current : "0" + current;
 counter = 0;
 
 for (int i = 0; i < 8; i++)
 {
-for (int j = 4; j < 8; j++)
-{
-counter += (board[i, j] == true) ? 1 : 0;
+    counter += (board[i, 2] == true) ? 1 : 0;
+    counter += (board[i, 3] == true) ? 1 : 0;
+    counter += (board[i, 6] == true) ? 1 : 0;
+    counter += (board[i, 7] == true) ? 1 : 0;
 }
+current = (counter % 2 == 1) ? "1" + current : "0" + current;
+counter = 0;
+
+for (int i = 0; i < 8; i++)
+{
+    for (int j = 4; j < 8; j++)
+    {
+        counter += (board[i, j] == true) ? 1 : 0;
+    }
 }
 current = (counter % 2 == 1) ? "1" + current : "0" + current;
 counter = 0;
 
 for (int i = 1; i < 9; i = i + 2)
 {
-for (int j = 0; j < 8; j++)
-{
-counter += (board[i, j] == true) ? 1 : 0;
-}
+    for (int j = 0; j < 8; j++)
+    {
+        counter += (board[i, j] == true) ? 1 : 0;
+    }
 }
 current = (counter % 2 == 1) ? "1" + current : "0" + current;
 counter = 0;
 
 for (int i = 0; i < 8; i++)
 {
-counter += (board[2, i] == true) ? 1 : 0;
+    counter += (board[2, i] == true) ? 1 : 0;
 }
 for (int i = 0; i < 8; i++)
 {
-counter += (board[3, i] == true) ? 1 : 0;
+    counter += (board[3, i] == true) ? 1 : 0;
 }
 for (int i = 0; i < 8; i++)
 {
-counter += (board[6, i] == true) ? 1 : 0;
+    counter += (board[6, i] == true) ? 1 : 0;
 }
 for (int i = 0; i < 8; i++)
 {
-counter += (board[7, i] == true) ? 1 : 0;
+    counter += (board[7, i] == true) ? 1 : 0;
 }
 current = (counter % 2 == 1) ? "1" + current : "0" + current;
 counter = 0;
 
 for (int i = 4; i < 8; i++)
 {
-for (int j = 0; j < 8; j++)
-{
-counter += (board[i, j] == true) ? 1 : 0;
-}
+    for (int j = 0; j < 8; j++)
+    {
+        counter += (board[i, j] == true) ? 1 : 0;
+    }
 }
 current = (counter % 2 == 1) ? "1" + current : "0" + current;
 counter = 0;
